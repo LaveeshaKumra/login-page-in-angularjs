@@ -1,0 +1,17 @@
+
+<html ng-app="formExample">
+    <head>
+
+
+        <script src="js/angular.js" ></script>
+        <script src="js/file.js"></script>
+    </head>
+<body>
+		<div ng-controller="getValue">
+		<input type="text" ng-model=name placeholder="Enter Username" ng-keyup="check()">
+		{{output}}<br><br>
+		<input type="password" ng-model=pass placeholder="*******" ><br><br>
+		<button ng-click="login()" >LogIn</button>
+		{{output1}}
+		</body>
+		</html>
